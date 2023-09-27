@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaki-Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5de2bb242c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="Image/Logo 2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Entry - Level Programmer And Social Media Marketing</p>
+            <h1>Hi, I'm <span>Zaki</span> From Indonesia</h1>
+        </div>
+    </div>
+</div>
+<!------------About--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/About.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m currently an informatics engineering student at UIN Syarif HIdayatullah Jakarta and  work as Social Media Admin at an agency called Popcult. I have been work since January 2023 and have managed several big brands such as Salonpas Let’s Move and Saridon ID, and right now i am looking forward to working with you!</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Video Editing</span><br>Mobile Video Editing</li>
+                <li><span>Trend Research</span><br>Analyzing Whats Trending On Social Media</li>
+                <li><span>UI/UX</span><br>Designing with Figma or Canva</li>
+                <li><span>Social Media</span><br>Social Media Management and Marketing</li>
+                <li><span>Critical Thinking</span><br>Problem Solving</li>
+                <li><span>UI/UX</span><br>Designing with Figma or Canva</li>
+                <li><span>Office 365</span><br>Mastering to Use Microsoft Office</li> 
+                <li><span>Entry-Level Programming</span><br>Knowlodge How to Create Program</li> 
+            </ul>
+        </div> 
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>Social Media Admin</span><br>Managing Social Media Account of Salonpas Let's Move</li>
+                <li><span>Social Media Admin</span><br>Managing Social Media Account of Saridon ID</li>
+                <li><span>Committee of PBAK Informatics Engineering 2023</span><br>As Event Division</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2010 - 2016</span><br>SDN KLENDER 04</li>
+                <li><span>2016 - 2019</span><br>SMPN 167 JAKARTA</li>
+                <li><span>2019 - 2022</span><br>SMAN 59 JAKARTA</li>
+                <li><span>2022 - NOW</span><br>Informatics Engineering at UIN Syarif Hidayatullah Jakarta</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!------------------------services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+        <i class="fa-solid fa-laptop-code" style="color: #ffffff;"></i>
+        <h2>Programming</h2>
+        <p>Create some entry-level program like Portfolio Website, Calculator and others.</p>
+        <a href="#">learn more</a>
+    </div>
+    <div>
+        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+        <h2>Social Media Marketing</h2>
+        <p>Managing client social media accounts, so that account become interactive to attract attention of netizens, and also analyzing trending content.</p>
+        <a href="#">learn more</a>
+    </div>
+    <div>
+        <i class="fa-regular fa-file" style="color: #ffffff;"></i>
+        <h2>Data Analyst</h2>
+        <p>Manage data simply into Microsoft Excel or Google Spreadsheet.</p>
+        <a href="#">learn more</a>
+    </div>
+</div>
+<!--------------Portfolio ----------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/Social Media Admin (Salonpas Let’s Move).png">
+                <div class="layer">
+                    <h3>Social Media Admin <br>Salonpas Let's Move</h3>
+                    <p>Answer every customer question,create content to increase customer attractiveness , and analyze what's trending on social media.</p>
+                    <a href="Image/Social Media Admin (Salonpas Let’s Move).png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/Social Media Admin (Saridon).png">
+                <div class="layer">
+                    <h3>Social Media Admin Saridon ID</h3>
+                    <p>Recap data participant who took part in #LanjutCariPeluang Saridon Giveaway.</p>
+                    <a href="/Image/Social Media Admin (Saridon).png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Contact---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>zakiramadhika@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+62 812-9741-5611</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/zakiirmdhka"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/zaki-ramadhika-7a385b190"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/6281297415611"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="Image/CV Zaki.pdf" download class="btn btn2"> Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+ 
+</body>
+</html>
