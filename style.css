@@ -321,5 +321,10 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
+    .about-col-1{
+        flex-basis: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
 
 }
