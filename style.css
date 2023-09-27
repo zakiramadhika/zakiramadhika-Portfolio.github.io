@@ -286,6 +286,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(Image/header\ \(Konten\ Instagram\ \(Persegi\)\)\ \(Konten\ Instagram\ \(Persegi\)\)\ \(600\ x\ 600\ piksel\).png);
+        margin-right: 10px;
     }
     .header-text{
         margin-top: 50%;
